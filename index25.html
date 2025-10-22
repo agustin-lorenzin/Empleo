@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de Empleo - Región NEA</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #023047;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #023047;
+            border-bottom: 2px solid #8ecae6;
+            padding-bottom: 5px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+        .pdf-link {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #219ebc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .pdf-link:hover {
+            background-color: #126782;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e0e0e0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Monitoreo de Empleo - Región NEA</h1>
+    <p>Octubre de 2025</p>
+</header>
+
+<main>
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>
+            En la primera página del tablero se presenta la cantidad total de empleos por departamento para cada rama de actividad económica declarada en el Censo 2022. Esta visualización permite identificar la distribución espacial del empleo dentro del Nordeste Argentino (NEA), brindando una perspectiva comparativa entre departamentos. Al mostrar el número absoluto de ocupaciones, se facilita el reconocimiento de los territorios con mayor densidad laboral y de aquellos con estructuras productivas más diversificadas o concentradas en determinadas actividades. Esta información es especialmente relevante para analizar la estructura económica regional y las diferencias en la magnitud del empleo entre jurisdicciones.
+
+	La segunda página del tablero expone el peso relativo de cada actividad dentro del empleo total del departamento. Es decir, muestra el porcentaje de personas ocupadas que se desempeñan en la actividad seleccionada respecto del total de empleos del departamento. Este enfoque permite evaluar la especialización productiva local, ya que un alto porcentaje indica que una porción significativa de la población ocupada depende de dicha actividad. Visualizar esta proporción resulta intuitivo porque revela la importancia económica y social de cada sector dentro del entramado laboral departamental, permitiendo inferir posibles vulnerabilidades frente a cambios sectoriales o fluctuaciones de la demanda.
+
+	Por último, la tercera página muestra la concentración territorial de la actividad seleccionada a nivel provincial. En este caso, se identifican los departamentos donde se concentra la mayor parte del empleo correspondiente a esa actividad. Este tipo de visualización facilita comprender la distribución geográfica del empleo sectorial dentro de cada provincia, destacando los polos de mayor dinamismo o los núcleos productivos específicos. Desde una perspectiva analítica, esta información es útil para reconocer patrones de aglomeración económica, evaluar la localización de los sectores productivos y orientar estrategias de desarrollo regional basadas en la especialización y complementariedad territorial.
+        </p>
+    </section>
+
+    <section id="tablero">
+        <h2>Tablero Interactivo</h2>
+        <iframe title="Tablero_Empleo" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNDE0MjkyMmYtZTFkZC00ZjhkLTk2YTktOWIwZWE3YWU2N2UzIiwidCI6ImRiZWM0ZDBhLTQ5OTQtNGM3NS05N2M1LWUzNTdiYzgxZTI1NSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+    </section>
+
+<footer>
+    Centro de Formación y Capacitación en Administración Pública (CEFCA) – Provincia del Chaco · 2025
+</footer>
+
+</body>
+</html>
